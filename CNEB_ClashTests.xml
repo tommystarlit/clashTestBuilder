@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-12.0.xsd" units="m" filename="" filepath="">
+  <batchtest name="CNEB_ClashTests" internal_name="CNEB_ClashTests" units="m">
+    <clashtests>
+      <clashtest name="Surface vs Surface" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Verge" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Earthworks" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Safety Barrier" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Dreinage" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Kerb" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Surface vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway Surface</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Verge" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Earthworks" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Safety Barrier" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Dreinage" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Kerb" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Verge vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/JENG Verge</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Earthworks" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Safety Barrier" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Dreinage" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Kerb" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Earthworks vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Earthworks</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs Safety Barrier" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs Dreinage" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs Kerb" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Safety Barrier vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Mid Carriageway Safety Barrier</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Dreinage vs Dreinage" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Dreinage vs Kerb" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Dreinage vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Dreinage vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Dreinage vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Dreinage vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HDG - Dreinage</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Kerb vs Kerb" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Kerb vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Kerb vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Kerb vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Kerb vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Kerb</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Edging vs Edging" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Edging vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Edging vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Edging vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Edging</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="LOffsetAndSlope vs LOffsetAndSlope" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="LOffsetAndSlope vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="LOffsetAndSlope vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/LinkOffsetAndSlope</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Footway vs Footway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Footway vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/GEN - Footway</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+      <clashtest name="Carriageway vs Carriageway" test_type="hard" status="new" tolerance="0.0000000000" merge_composites="0">
+        <linkage mode="none"/>
+        <left>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </left>
+        <right>
+          <clashselection selfintersect="0" primtypes="1">
+            <locator>lcop_selection_set_tree/HML - Carriageway</locator>
+          </clashselection>
+        </right>
+        <rules/>
+      </clashtest>
+    </clashtests>
+    <selectionsets>
+      <selectionset name="HML - Carriageway Surface" guid="825caa81-94c9-46e0-8384-3538066fac8c">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="wildcard" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">*surface</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="JENG Verge" guid="fb978603-943b-4ca7-991c-221f82b37e76">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">jeng_verge</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HML - Earthworks" guid="e1e121a9-d9cc-4e5e-ade7-84de6c20a7e3">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">jeng_earth</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HML - Mid Carriageway Safety Barrier" guid="6dfd58b6-84b4-4911-afc0-e79daf6c6c27">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">jeng_csb</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HDG - Dreinage" guid="f385b4e7-86a4-46c6-a8bb-cf6e4598431f">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">stormpipe</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HML - Kerb" guid="efa7a909-c3ab-4947-9e79-f77d85ab02da">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">jeng_kerb</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HML - Edging" guid="091434ec-7984-4276-b159-0258f6ad73e9">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">jeng_edging</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="LinkOffsetAndSlope" guid="f83cbe2b-2054-4e00-a890-26b9613e304d">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">LinkOffsetAndSlope</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="GEN - Footway" guid="481b2002-9257-4989-971c-343c31d8d1e0">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">JENG_Footway</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+      <selectionset name="HML - Carriageway" guid="4cd88ab3-32df-4855-9133-b29b86d9572d">
+        <findspec mode="all" disjoint="0">
+          <conditions>
+            <condition test="contains" flags="26">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">base</data>
+              </value>
+            </condition>
+            <condition test="contains" flags="90">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">binder</data>
+              </value>
+            </condition>
+            <condition test="contains" flags="90">
+              <property>
+                <name internal="LcOaSceneBaseUserName">Name</name>
+              </property>
+              <value>
+                <data type="wstring">capping</data>
+              </value>
+            </condition>
+          </conditions>
+          <locator>/</locator>
+        </findspec>
+      </selectionset>
+    </selectionsets>
+  </batchtest>
+</exchange>
