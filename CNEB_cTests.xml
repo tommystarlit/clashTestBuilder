@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<exchange xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://download.autodesk.com/us/navisworks/schemas/nw-exchange-12.0.xsd" units="m" filename="" filepath="">
+  <selectionsets>
+    <selectionset name="HML - Carriageway Surface" guid="825caa81-94c9-46e0-8384-3538066fac8c">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="wildcard" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">*surface</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="JENG Verge" guid="fb978603-943b-4ca7-991c-221f82b37e76">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">jeng_verge</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="HML - Earthworks" guid="e1e121a9-d9cc-4e5e-ade7-84de6c20a7e3">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">jeng_earth</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="HML - Mid Carriageway Safety Barrier" guid="6dfd58b6-84b4-4911-afc0-e79daf6c6c27">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">jeng_csb</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="HDG - Dreinage" guid="f385b4e7-86a4-46c6-a8bb-cf6e4598431f">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">stormpipe</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="HML - Kerb" guid="efa7a909-c3ab-4947-9e79-f77d85ab02da">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">jeng_kerb</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="HML - Edging" guid="091434ec-7984-4276-b159-0258f6ad73e9">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">jeng_edging</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="LinkOffsetAndSlope" guid="f83cbe2b-2054-4e00-a890-26b9613e304d">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">LinkOffsetAndSlope</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="GEN - Footway" guid="481b2002-9257-4989-971c-343c31d8d1e0">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">JENG_Footway</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+    <selectionset name="HML - Carriageway" guid="4cd88ab3-32df-4855-9133-b29b86d9572d">
+      <findspec mode="all" disjoint="0">
+        <conditions>
+          <condition test="contains" flags="26">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">base</data>
+            </value>
+          </condition>
+          <condition test="contains" flags="90">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">binder</data>
+            </value>
+          </condition>
+          <condition test="contains" flags="90">
+            <property>
+              <name internal="LcOaSceneBaseUserName">Name</name>
+            </property>
+            <value>
+              <data type="wstring">capping</data>
+            </value>
+          </condition>
+        </conditions>
+        <locator>/</locator>
+      </findspec>
+    </selectionset>
+  </selectionsets>
+</exchange>
